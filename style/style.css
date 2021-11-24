@@ -152,3 +152,42 @@ main {
   justify-content: center;
   padding: 50px;
 }
+
+/* left right section */
+.left-right-section {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  background-color: #f7f7f7;
+  color: #008248;
+  padding: 32px 48px;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-text h1 {
+  margin-bottom: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section-text > h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.section-image {
+  width: 50%;
+  display: flex;
+}
+
+.section-image > img {
+  width: 100%;
+}
